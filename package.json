@@ -12,11 +12,14 @@
   },
   "dependencies": {
     "pinia": "^2.1.7",
-    "vue": "^3.3.11"
+    "pinia-plugin-persistedstate": "^3.2.1",
+    "sass": "^1.77.8",
+    "vue": "^3.3.11",
+    "vuedraggable": "^4.1.0"
   },
   "devDependencies": {
     "@tsconfig/node18": "^18.2.2",
-    "@types/node": "^18.19.3",
+    "@types/node": "^18.19.43",
     "@vitejs/plugin-vue": "^4.5.2",
     "@vue/tsconfig": "^0.5.0",
     "npm-run-all2": "^6.1.1",

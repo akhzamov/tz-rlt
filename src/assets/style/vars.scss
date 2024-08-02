@@ -1,0 +1,31 @@
+:root {
+	--main-font: 'Montserrat';
+	--bg-color: white;
+	--text-color: black;
+	--item-bg-color: #ccc;
+	--item-border-color: #888;
+	--border-color: #4d4d4d;
+	--item-bg-color: #afafaf;
+	--item-bg-color-50: rgba(175, 175, 175, 0.502);
+	--button-bg: #fa7272;
+	--button-cancel-bg: #fff;
+	--button-cancel-text-color: #2d2d2d;
+}
+
+[data-theme='dark'] {
+	--bg-color: #1d1d1d;
+	--text-color: #f5f5f5;
+	--item-bg-color: #555;
+	--item-border-color: #bbb;
+	--item-bg-color: #262626;
+	--item-bg-color-50: rgba(38, 38, 38, 0.502);
+}
+
+[data-theme='light'] {
+	--bg-color: white;
+	--text-color: black;
+	--item-bg-color: #ccc;
+	--item-border-color: #888;
+	--item-bg-color: #afafaf;
+	--item-bg-color-50: rgba(175, 175, 175, 0.502);
+}
